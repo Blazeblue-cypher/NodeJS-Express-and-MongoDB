@@ -2,7 +2,7 @@ const express = require('express');
 
 const partnerRouter = express.Router();
 
-partnerRouter.use(express.json());
+
 
 partnerRouter.route ('/')
 .all((req,res,next) => {
